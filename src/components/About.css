@@ -1,12 +1,19 @@
-.container-fluid {
-    margin-top: 60px;
+.container {
+    padding-top: 60px;
     font-family: 'Hind Siliguri', sans-serif;
+    position: relative;
+}
+
+p, h3 {
+    color: white
 }
 
 .img-fluid {
     height: 250px;
+    border-radius: 25px;
 }
 
 .row {
     justify-content: center;
 }
+
