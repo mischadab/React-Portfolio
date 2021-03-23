@@ -1,0 +1,10 @@
+/* .wrapper {
+    background-color: linear-gradient(95deg, rgb(4, 4, 105), rgb(33, 2, 70), rgb(49, 2, 49))
+    background-color: red;
+    border: 10px solid blue;
+  } */
+
+  .wrapper {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(49, 2, 49), rgb(4, 4, 105), rgb(33, 2, 70), rgb(49, 2, 49))
+  }
