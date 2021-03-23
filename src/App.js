@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
-
-// import Wrapper from "./components/Wrapper";
+import './components/footer.css'
+import './App.css'
+import Wrapper from './components/Wrapper'
 
 function Navbar() {
   return (
@@ -30,15 +31,19 @@ function Navbar() {
 function App() {
   return (
 
-    <div>
+      <div className="quack">
       <Router>
         <Navbar />
-        <main>
+
+        <Wrapper>
+       
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-        </main>
+      
+        </Wrapper>
+
       </Router>
 
       <footer className="footer">
