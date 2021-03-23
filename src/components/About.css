@@ -1,0 +1,12 @@
+.container-fluid {
+    margin-top: 60px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.img-fluid {
+    height: 250px;
+}
+
+.row {
+    justify-content: center;
+}
