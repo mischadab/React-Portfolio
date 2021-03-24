@@ -21,7 +21,6 @@ p, h3, h4 {
 .prof {
     text-align: center;
     justify-content: center;
-    content-align: center;
     margin-top: 50px;
 }
 
@@ -41,4 +40,20 @@ p, h3, h4 {
     margin: 10px;
     border: 1px solid rgb(199, 235, 247);
     border-radius: 5px;
+}
+
+button {
+    background-color: rgb(214, 195, 250);
+    padding: 15px;
+    border-radius: 25px;
+}
+button:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgb(213, 212, 250);
+}
+
+.linkdec {
+    text-decoration: none;
+    color: rgb(27, 5, 78);
 }
