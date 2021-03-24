@@ -14,7 +14,10 @@ function About() {
         <div className="col-md-auto">
           <h3>Let me introduce myself!</h3>
           <p>
-            Hi! I'm Mischa Dabrowski. I'm a junior front-end web developer, with a background in graphic design and photography.
+            Hi! I'm Mischa Dabrowski. I am a junior front-end web developer, with a background in graphic design and photography.
+          </p>
+          <p>
+          Using my graphic design experience, I enjoy creating web applications with a focus on user experience.
           </p>
           <p>
             Aside from coding, here are some other activities that I love to do:
