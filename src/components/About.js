@@ -34,6 +34,10 @@ function About() {
       </div>
 
       <div className="prof">
+      <button><a className="linkdec" href="../assets/MDabrowski Resume 2021.pdf">DOWNLOAD MY RESUME HERE!</a></button>
+      </div>
+
+      <div className="prof">
         <h3>PROFESSIONAL SKILL SET</h3>
     <br></br>
       <div>
