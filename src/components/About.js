@@ -5,13 +5,13 @@ import headshot from '../assets/headshot.jpg'
 
 function About() {
   return (
-    // <div>
+  
 
     <div className="container">
 
-      <div class="row">
+      <div className="row">
 
-        <div class="col-md-auto">
+        <div className="col-md-auto">
           <h3>Let me introduce myself!</h3>
           <p>
             Hi! I'm Mischa Dabrowski. I'm a junior front-end web developer, with a background in graphic design and photography.
@@ -27,19 +27,39 @@ function About() {
           </p>
         </div>
 
-        <div class="col-md-auto">
+        <div className="col-md-auto">
           <img className="img-fluid" src={headshot} alt="Mischa's headshot" />
         </div>
 
       </div>
 
+      <div className="prof">
+        <h3>Professional Skill Set</h3>
+    <br></br>
+      <div>
+      <i className="devicon-html5-plain icons"></i>
+      <i className="devicon-css3-plain icons"></i>
+      <i className="devicon-javascript-plain icons"></i>
+      <i className="devicon-nodejs-plain icons"></i>
+      <i class="devicon-express-original-wordmark icons"></i>
+      </div>
+      <br></br>
+      <br></br>
+      <div>
+      <i className="devicon-mysql-plain icons"></i>
+      <i className="devicon-mongodb-plain icons"></i>
+      <i className="devicon-react-original icons"></i>
+      <i className="devicon-bootstrap-plain-wordmark icons"></i>
+      <i className="devicon-github-original icons"></i>
+      </div>
+      </div>
 
 
 
 
     </div>
 
-    // </div>
+ 
   );
 }
 
