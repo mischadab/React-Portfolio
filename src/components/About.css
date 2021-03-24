@@ -17,3 +17,15 @@ p, h3 {
     justify-content: center;
 }
 
+.prof {
+    text-align: center;
+    justify-content: center;
+    content-align: center;
+}
+
+.icons {
+    color: white;
+    padding: 30px;
+    font-size: 75px;
+    margin-top: 30px;
+}
