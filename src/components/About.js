@@ -34,7 +34,7 @@ function About() {
       </div>
 
       <div className="prof">
-        <h3>Professional Skill Set</h3>
+        <h3>PROFESSIONAL SKILL SET</h3>
     <br></br>
       <div>
       <i className="devicon-html5-plain icons"></i>
@@ -53,7 +53,19 @@ function About() {
       <i className="devicon-github-original icons"></i>
       </div>
       </div>
+<br></br>
 
+    <div className="prof">
+      
+    <h4>CONNECT WITH ME ON</h4>
+                <a href="https://github.com/mischadab">
+                  <i className="fab fa-github icons2"></i>
+                </a>
+                <a href="https://ca.linkedin.com/in/mischa-dabrowski-076b2214a">
+                  <i className="fab fa-linkedin icons2"></i>
+                </a>
+
+    </div>
 
 
 
