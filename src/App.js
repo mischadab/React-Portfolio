@@ -9,29 +9,13 @@ import Wrapper from './components/Wrapper'
 
 function Navbar() {
   return (
-    // <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    //   <NavLink className="navbar-brand" to="/">Mischa Dabrowski</NavLink>
-    //   <div>
-    //     <ul className="navbar-nav">
-    //       <li className="nav-item">
-    //         <NavLink to="/" className="nav-link" activeClassName="active">ABOUT</NavLink>
-    //       </li>
-    //       <li className="nav-item">
-    //         <NavLink to="/portfolio" className="nav-link" activeClassName="active">PORTFOLIO</NavLink>
-    //       </li>
-    //       <li className="nav-item">
-    //         <NavLink to="/contact" className="nav-link" activeClassName="active">CONTACT</NavLink>
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </nav>
 
     <div>
       <h1 className="title">Mischa Dabrowski</h1>
       <nav>
       <NavLink to="/" className="navv"> ABOUT </NavLink>    
       <NavLink to="portfolio" className="navv"> PORTFOLIO </NavLink>     
-      <NavLink to="/" className="navv"> CONTACT </NavLink>    
+      <NavLink to="/contact" className="navv"> CONTACT </NavLink>   
       </nav>
     </div>
 
@@ -41,7 +25,7 @@ function Navbar() {
 function App() {
   return (
 
-      <div className="quack">
+      <div>
       <Router>
      
 
