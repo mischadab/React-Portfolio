@@ -1,7 +1,18 @@
+.title {
+  color: white;
+  text-align: center;
+}
 
+.navv {
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.navv:hover {
+  color: rgb(195, 178, 243)
+}
 
-/* .quack { */
-  /* border: 10px solid pink; */
-  /* height: 100vh; */
-  /* background-color: linear-gradient(95deg, rgb(4, 4, 105), rgb(33, 2, 70), rgb(49, 2, 49)); */
-/* } */
+nav {
+  text-align: center;
+}
