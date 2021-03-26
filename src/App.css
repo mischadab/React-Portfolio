@@ -1,6 +1,8 @@
 .title {
   color: white;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 15px;
 }
 
 .navv {
@@ -8,9 +10,13 @@
   text-align: center;
   text-decoration: none;
   color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 .navv:hover {
-  color: rgb(195, 178, 243)
+  color: rgb(195, 178, 243);
 }
 
 nav {
