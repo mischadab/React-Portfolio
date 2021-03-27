@@ -5,9 +5,9 @@
 My personal portfolio including an about me, contact page and portfolio page, created using React.
 
 
-`` DEPLOYED GITHUB LINK ``
+`` DEPLOYED HEROKU LINK ``
 
-
+https://reactportfolio-mischa.herokuapp.com/
 
 
 `` SCREENSHOTS ``
