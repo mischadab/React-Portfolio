@@ -13,7 +13,8 @@ function Portfolio() {
                 <div class="card mb-3 cardsize">
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img className="imgcard" src={GME} alt="Get Me Employed" />
+                            <a href="https://teamcirclealpha.github.io/GetMeEmployed/">
+                                <img className="imgcard" src={GME} alt="Get Me Employed" /></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -26,7 +27,8 @@ function Portfolio() {
                 <div class="card mb-3 cardsize">
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img className="imgcard" src={Panther} alt="Panther Chat room" />
+                            <a href="https://github.com/PurplePanthers/PantherChatroom">
+                                <img className="imgcard" src={Panther} alt="Panther Chat room" /></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -42,7 +44,8 @@ function Portfolio() {
                 <div class="card mb-3 cardsize">
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img className="imgcard" src={EmpDir} alt="Employee Directory" />
+                            <a href="https://github.com/mischadab/Employee-Directory">
+                                <img className="imgcard" src={EmpDir} alt="Employee Directory" /></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -55,7 +58,8 @@ function Portfolio() {
                 <div class="card mb-3 cardsize">
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img className="imgcard" src={Weather} alt="Weather Dashboard" />
+                            <a href="https://mischadab.github.io/Weather-Application/">
+                                <img className="imgcard" src={Weather} alt="Weather Dashboard" /></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -71,7 +75,8 @@ function Portfolio() {
                 <div class="card mb-3 cardsize">
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img className="imgcard" src={Planner} alt="Work Day Planner" />
+                            <a href="https://mischadab.github.io/Work-Day-Planner/">
+                                <img className="imgcard" src={Planner} alt="Work Day Planner" /></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -84,7 +89,8 @@ function Portfolio() {
                 <div class="card mb-3 cardsize">
                     <div class="row g-0">
                         <div class="col-md-4">
-                        <img className="imgcard" src={TeamGen} alt="Team Profile Generator" />
+                            <a href="https://github.com/mischadab/TeamProfileGenerator">
+                                <img className="imgcard" src={TeamGen} alt="Team Profile Generator" /></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
