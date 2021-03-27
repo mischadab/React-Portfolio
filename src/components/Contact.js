@@ -9,15 +9,15 @@ function Contact() {
         <h2>LET'S GET IN TOUCH</h2>
 
         <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label font">Full Name</label>
+            <label htmlFor="exampleFormControlInput1" className="form-label font">Full Name</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith" />
         </div>
         <div className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label font">Email address</label>
+            <label htmlFor="exampleFormControlInput1" className="form-label font">Email address</label>
             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
         </div>
         <div className="mb-3">
-            <label for="exampleFormControlTextarea1" className="form-label font">Your Message</label>
+            <label htmlFor="exampleFormControlTextarea1" className="form-label font">Your Message</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
