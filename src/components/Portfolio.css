@@ -2,4 +2,18 @@
     max-width: 540px;
     margin: 1%;
     margin-top: 100px;
+    border-radius: 15px;
+}
+
+.imgcard{
+    width: 175px;
+    margin-top: 10px;
+}
+
+.card-text{
+    color: black;
+}
+
+.pagebody {
+    height: 100vh;
 }
