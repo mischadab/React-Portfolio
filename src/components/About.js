@@ -1,6 +1,7 @@
 import React from "react";
 import './About.css'
 import headshot from '../assets/headshot.jpg'
+import resume from '../assets/resume.pdf'
 
 
 function About() {
@@ -37,7 +38,7 @@ function About() {
       </div>
 
       <div className="prof">
-      <button><a className="linkdec" href="../assets/MDabrowski Resume 2021.pdf">DOWNLOAD MY RESUME HERE!</a></button>
+      <button><a className="linkdec" href={resume} target="_blank" rel="noreferrer">VIEW MY RESUME HERE!</a></button>
       </div>
 
       <div className="prof">
